@@ -12,7 +12,7 @@ import android.view.MotionEvent;
 import android.view.View;
 
 
-public class DrawingView extends View {
+public class canvas_class extends View {
 
     //Path que utilizaré para ir pintando las lineas
     private Path drawPath;
@@ -30,7 +30,7 @@ public class DrawingView extends View {
     private static boolean borrado=false;
 
 
-    public DrawingView(Context context, AttributeSet attrs) {
+    public canvas_class(Context context, AttributeSet attrs) {
         super(context, attrs);
         setupDrawing();
     }

@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ImageButton black;
     ImageButton white;
 
-    private static DrawingView drawingv;
+    private static canvas_class drawingv;
     float psmall;
     float pmedium;
     float plarge;
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         eraser.setOnClickListener(this);
         savedraw.setOnClickListener(this);
 
-        drawingv = (DrawingView)findViewById(R.id.drawingv);
+        drawingv = (canvas_class)findViewById(R.id.drawingv);
 
         psmall= 10;
         pmedium= 20;
@@ -100,8 +100,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 smallBtn.setOnClickListener(new View.OnClickListener(){
                     @Override
                     public void onClick(View v) {
-                        DrawingView.setBorrado(false);
-                        DrawingView.setTamanyoPunto(psmall);
+                        canvas_class.setBorrado(false);
+                        canvas_class.setTamanyoPunto(psmall);
 
                         tamanyopunto.dismiss();
                     }
@@ -110,8 +110,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 mediumBtn.setOnClickListener(new View.OnClickListener(){
                     @Override
                     public void onClick(View v) {
-                        DrawingView.setBorrado(false);
-                        DrawingView.setTamanyoPunto(pmedium);
+                        canvas_class.setBorrado(false);
+                        canvas_class.setTamanyoPunto(pmedium);
 
                         tamanyopunto.dismiss();
                     }
@@ -120,8 +120,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 largeBtn.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        DrawingView.setBorrado(false);
-                        DrawingView.setTamanyoPunto(plarge);
+                        canvas_class.setBorrado(false);
+                        canvas_class.setTamanyoPunto(plarge);
 
                         tamanyopunto.dismiss();
                     }
@@ -163,8 +163,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 smallBtneraser.setOnClickListener(new View.OnClickListener(){
                     @Override
                     public void onClick(View v) {
-                        DrawingView.setBorrado(true);
-                        DrawingView.setTamanyoPunto(psmall);
+                        canvas_class.setBorrado(true);
+                        canvas_class.setTamanyoPunto(psmall);
 
                         eraserpunto.dismiss();
                     }
@@ -173,8 +173,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 mediumBtneraser.setOnClickListener(new View.OnClickListener(){
                     @Override
                     public void onClick(View v) {
-                        DrawingView.setBorrado(true);
-                        DrawingView.setTamanyoPunto(pmedium);
+                        canvas_class.setBorrado(true);
+                        canvas_class.setTamanyoPunto(pmedium);
 
                         eraserpunto.dismiss();
                     }
@@ -183,8 +183,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 largeBtneraser.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        DrawingView.setBorrado(true);
-                        DrawingView.setTamanyoPunto(plarge);
+                        canvas_class.setBorrado(true);
+                        canvas_class.setTamanyoPunto(plarge);
 
                         eraserpunto.dismiss();
                     }
