@@ -8,5 +8,16 @@
     <string name="mainmenu_create">Create Image Button</string>
     <string name="mainmenu_help">Help Image Button</string>
     <string name="mainmenu_about">About Image Button</string>
+    <string name="nav_left">Arrow to the left</string>
+    <string name="nav_right">Arrow to the right</string>
+    <string name="newdraw">Creates new drawing area</string>
+    <string name="brush">Brush tool</string>
+    <string name="eraser">Eraser tool</string>
+    <string name="savedraw">Saves the drawing</string>
+
+
+    <!-- LETTERS -->
+    <string name="a">Small a</string>
+    <string name="b">Small b</string>
 
 </resources>
