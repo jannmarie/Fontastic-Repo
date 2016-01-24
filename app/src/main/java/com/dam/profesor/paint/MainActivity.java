@@ -33,6 +33,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ImageButton eraser;
     ImageButton savedraw;
 
+    ImageButton arrow_a_small_right;
+    ImageButton arrow_a_small_left;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,10 +43,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        brushsize = (ImageButton)findViewById(R.id.brushsize);
-        newdraw = (ImageButton)findViewById(R.id.newdraw);
-        eraser = (ImageButton)findViewById(R.id.eraser);
-        savedraw = (ImageButton)findViewById(R.id.savedraw);
+        newdraw = (ImageButton)findViewById(R.id.newdraw_a);
+        brushsize = (ImageButton)findViewById(R.id.brush_a);
+        eraser = (ImageButton)findViewById(R.id.eraser_a);
+        savedraw = (ImageButton)findViewById(R.id.savedraw_a);
+
+        arrow_a_small_right = (ImageButton)findViewById(R.id.arrow_a_small_right);
+        arrow_a_small_left = (ImageButton)findViewById(R.id.arrow_a_small_left);
 
 
         brushsize.setOnClickListener(this);
@@ -51,7 +57,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         eraser.setOnClickListener(this);
         savedraw.setOnClickListener(this);
 
-        drawingv = (canvas_class)findViewById(R.id.drawingv);
+        arrow_a_small_right.setOnClickListener(this);
+        arrow_a_small_left.setOnClickListener(this);
+
+        drawingv = (canvas_class)findViewById(R.id.canvas_a);
 
         psmall= 10;
         pmedium= 20;
@@ -91,10 +100,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
         switch (v.getId()){
-            case R.id.brushsize:
+            case R.id.arrow_a_small_right:
+                setContentView(R.layout.content_b);
+                Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar);
+                setSupportActionBar(toolbar);
+                break;
+
+            case R.id.arrow_a_small_left:
+                setContentView(R.layout.content_b);
+                Toolbar toolbar1 = (Toolbar)findViewById(R.id.toolbar);
+                setSupportActionBar(toolbar1);
+                break;
+
+            case R.id.brush_a:
                 final Dialog tamanyopunto = new Dialog(this);
                 tamanyopunto.setTitle("Select Brush Size:");
-                tamanyopunto.setContentView(R.layout.tamanyo_punto);
+                tamanyopunto.setContentView(R.layout.sizes);
             //listen for clicks on tamaños de los botones
                 TextView smallBtn = (TextView)tamanyopunto.findViewById(R.id.tSmall);
                 smallBtn.setOnClickListener(new View.OnClickListener(){
@@ -131,7 +152,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
                 break;
-            case R.id.newdraw:
+            case R.id.newdraw_a:
 
 
                 AlertDialog.Builder newDialog = new AlertDialog.Builder(this);
@@ -153,11 +174,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
                 break;
-            case R.id.eraser:
+            case R.id.eraser_a:
 
                 final Dialog eraserpunto = new Dialog(this);
                 eraserpunto.setTitle("Select Eraser:");
-                eraserpunto.setContentView(R.layout.tamanyo_punto);
+                eraserpunto.setContentView(R.layout.sizes);
                 //listen for clicks on tamaños de los botones
                 TextView smallBtneraser = (TextView)eraserpunto.findViewById(R.id.tSmall);
                 smallBtneraser.setOnClickListener(new View.OnClickListener(){
@@ -194,7 +215,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
                 break;
-            case R.id.savedraw:
+            case R.id.savedraw_a:
 
                 AlertDialog.Builder salvarDibujo = new AlertDialog.Builder(this);
                 salvarDibujo.setTitle("Save Drawing");
@@ -208,7 +229,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         String imgSaved = MediaStore.Images.Media.insertImage(
                                 getContentResolver(), drawingv.getDrawingCache(),
                                 UUID.randomUUID().toString()+".png", "drawing");
-                        //Mensaje de todo correcto
+                        //Mensaje detodo correcto
                         if(imgSaved!=null){
                             Toast savedToast = Toast.makeText(getApplicationContext(),
                                     "Your drawing was saved in the gallery.", Toast.LENGTH_SHORT);
