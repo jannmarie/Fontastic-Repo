@@ -8,7 +8,8 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:showIn="@layout/activity_main" tools:context=".MainActivity">
+    tools:showIn="@layout/activity_main"
+    tools:context=".MainActivity">
 
 
     <LinearLayout
@@ -17,35 +18,37 @@
         android:layout_height="52dp"
         android:weightSum="1">
 
-
         <ImageButton
+            android:id="@+id/arrow_a_small_left"
+            android:contentDescription="@string/nav_left"
             android:layout_width="78dp"
             android:layout_height="54dp"
             android:src="@drawable/back"
-            android:id="@+id/imageButton"
             android:background="#fdec8c" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="37dp"
+            android:id="@+id/label_a_small"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.22"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Draw Letter A"
-            android:id="@+id/textView"
-            android:layout_weight="1.22" />
+            android:textAlignment="center"
+            android:text="@string/a" />
 
         <ImageButton
+            android:id="@+id/arrow_a_small_right"
+            android:contentDescription="@string/nav_right"
             android:layout_width="86dp"
             android:layout_height="match_parent"
             android:src="@drawable/forward"
-            android:id="@+id/imageButton2"
             android:background="#fdec8c" />
 
     </LinearLayout>
 
     <com.dam.profesor.paint.canvas_class
+        android:id="@+id/canvas_a"
         android:layout_width="match_parent"
         android:layout_height="365dp"
-        android:id="@+id/drawingv"
         android:background="@drawable/paper"/>
 
     <LinearLayout
@@ -56,38 +59,41 @@
 
 
         <ImageButton
+            android:id="@+id/newdraw_a"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:src="@drawable/plus"
-            android:id="@+id/newdraw"
-            android:backgroundTint="#fef1a8" />
+            android:backgroundTint="#fef1a8"
+            android:contentDescription="@string/newdraw"
+            android:clickable="true" />
 
         <ImageButton
+            android:id="@+id/brush_a"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:src="@drawable/brush"
-            android:id="@+id/brushsize"
-            android:backgroundTint="#fef1a8" />
+            android:backgroundTint="#fef1a8"
+            android:contentDescription="@string/brush" />
 
         <ImageButton
+            android:id="@+id/eraser_a"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:src="@drawable/eraser"
-            android:id="@+id/eraser"
-            android:backgroundTint="#fef1a8" />
+            android:backgroundTint="#fef1a8"
+            android:contentDescription="@string/eraser" />
 
         <ImageButton
+            android:id="@+id/savedraw_a"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:src="@drawable/save"
-            android:id="@+id/savedraw"
-            android:backgroundTint="#fef1a8" />
-
-
+            android:backgroundTint="#fef1a8"
+            android:contentDescription="@string/savedraw" />
 
     </LinearLayout>
 
