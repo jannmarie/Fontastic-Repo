@@ -14,20 +14,15 @@ import android.view.View;
 
 public class canvas_class extends View {
 
-    //Path que utilizaré para ir pintando las lineas
     private Path drawPath;
-    //Paint de dibujar y Paint de Canvas
     private static Paint drawPaint;
     private Paint canvasPaint;
-    //Color Inicial
-    private static int paintColor = 0xFF000000;
-    //canvas
-    private Canvas drawCanvas;
-    //canvas para guardar
+    private static Canvas drawCanvas;
     private Bitmap canvasBitmap;
 
+    private static int paintColor = 0xFF000000;
     static float TamanyoPunto;
-    private static boolean borrado=false;
+    private static boolean borrado = false;
 
 
     public canvas_class(Context context, AttributeSet attrs) {
@@ -131,9 +126,9 @@ public class canvas_class extends View {
         }
     }
 
-    public void NuevoDibujo(){
+    public static void NuevoDibujo(){
         drawCanvas.drawColor(0, PorterDuff.Mode.CLEAR);
-        invalidate();
+     //   invalidate();
 
     }
 
