@@ -108,7 +108,6 @@ public class DrawingActivitya extends AppCompatActivity implements View.OnClickL
     @Override
     public void onClick(View v) {
         tools buttons = new tools(this);
-
         switch (v.getId()){
             case R.id.newdraw_a:
                 buttons.newdrawing();
@@ -123,11 +122,12 @@ public class DrawingActivitya extends AppCompatActivity implements View.OnClickL
                 save();
                 break;
             case R.id.arrow_a_small_right:
-                Intent intent;
-                intent = new Intent("com.dam.profesor.paint.DrawingActivityb");
-                startActivity(intent);
+                Intent intentright;
+                intentright = new Intent("com.dam.profesor.paint.DrawingActivityb");
+                startActivity(intentright);
+                break;
             case R.id.arrow_a_small_left:
-                save();
+                finish();
                 break;
             default:
                 break;
