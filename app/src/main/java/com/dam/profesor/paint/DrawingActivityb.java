@@ -52,7 +52,7 @@ public class DrawingActivityb extends AppCompatActivity implements View.OnClickL
                 break;
             case R.id.arrow_b_small_right:
                 Intent intentright;
-                intentright = new Intent("com.dam.profesor.paint.DrawingActivitya");
+                intentright = new Intent("com.dam.profesor.paint.DrawingActivityc");
                 startActivity(intentright);
                 break;
             case R.id.arrow_b_small_left:

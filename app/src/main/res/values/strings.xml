@@ -23,5 +23,29 @@
     <!-- APP BAR -->
     <string name="title_activity_drawing_activitya">Lowercase a</string>
     <string name="title_activity_drawing_activityb">Lowercase b</string>
+    <string name="title_activity_drawing_activityc">Lowercase c</string>
+    <string name="title_activity_drawing_activityd">Lowercase d</string>
+    <string name="title_activity_drawing_activitye">Lowercase e</string>
+    <string name="title_activity_drawing_activityf">Lowercase f</string>
+    <string name="title_activity_drawing_activityg">Lowercase g</string>
+    <string name="title_activity_drawing_activityh">Lowercase h</string>
+    <string name="title_activity_drawing_activityi">Lowercase i</string>
+    <string name="title_activity_drawing_activityj">Lowercase j</string>
+    <string name="title_activity_drawing_activityk">Lowercase k</string>
+    <string name="title_activity_drawing_activityl">Lowercase l</string>
+    <string name="title_activity_drawing_activitym">Lowercase m</string>
+    <string name="title_activity_drawing_activityn">Lowercase n</string>
+    <string name="title_activity_drawing_activityo">Lowercase o</string>
+    <string name="title_activity_drawing_activityp">Lowercase p</string>
+    <string name="title_activity_drawing_activityq">Lowercase q</string>
+    <string name="title_activity_drawing_activityr">Lowercase r</string>
+    <string name="title_activity_drawing_activitys">Lowercase s</string>
+    <string name="title_activity_drawing_activityt">Lowercase t</string>
+    <string name="title_activity_drawing_activityu">Lowercase u</string>
+    <string name="title_activity_drawing_activityv">Lowercase v</string>
+    <string name="title_activity_drawing_activityw">Lowercase w</string>
+    <string name="title_activity_drawing_activityx">Lowercase x</string>
+    <string name="title_activity_drawing_activityy">Lowercase y</string>
+    <string name="title_activity_drawing_activityz">Lowercase z</string>
 
 </resources>
