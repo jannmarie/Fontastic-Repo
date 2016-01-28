@@ -17,7 +17,11 @@
 
 
     <!-- LETTERS -->
-    <string name="a">Small a</string>
-    <string name="b">Small b</string>
+    <string name="a">Lowercase a</string>
+    <string name="b">Lowercase b</string>
+
+    <!-- APP BAR -->
+    <string name="title_activity_drawing_activitya">Lowercase a</string>
+    <string name="title_activity_drawing_activityb">Lowercase b</string>
 
 </resources>

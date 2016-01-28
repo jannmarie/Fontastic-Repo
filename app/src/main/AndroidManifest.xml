@@ -10,7 +10,6 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity
             android:name=".HomeActivity"
             android:label="@string/title_activity_home"
@@ -21,20 +20,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
+            android:name=".DrawingActivitya"
+            android:label="@string/title_activity_drawing_activitya"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
-                <action android:name="com.dam.profesor.paint.MainActivity" />
+                <action android:name="com.dam.profesor.paint.DrawingActivitya" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".DrawingActivityb"
+            android:label="@string/title_activity_drawing_activityb"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.dam.profesor.paint.DrawingActivityb" />
 
-
-
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

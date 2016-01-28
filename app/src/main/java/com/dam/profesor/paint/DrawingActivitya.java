@@ -2,6 +2,7 @@ package com.dam.profesor.paint;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
@@ -14,66 +15,40 @@ import android.widget.Toast;
 
 import java.util.UUID;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class DrawingActivitya extends AppCompatActivity implements View.OnClickListener {
 
-    private static canvas_class drawingv;
-    float psmall;
-    float pmedium;
-    float plarge;
-    float pdefecto;
-    ImageButton brushsize;
-    ImageButton newdraw;
-    ImageButton eraser;
-    ImageButton savedraw;
-
+    public static canvas_class drawingv;
+    ImageButton brushsize_a;
+    ImageButton newdraw_a;
+    ImageButton eraser_a;
+    ImageButton savedraw_a;
     ImageButton arrow_a_small_right;
-
     ImageButton arrow_a_small_left;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_drawing_activitya);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        newdraw = (ImageButton)findViewById(R.id.newdraw_a);
-        brushsize = (ImageButton)findViewById(R.id.brush_a);
-        eraser = (ImageButton)findViewById(R.id.eraser_a);
-        savedraw = (ImageButton)findViewById(R.id.savedraw_a);
+        newdraw_a = (ImageButton)findViewById(R.id.newdraw_a);
+        brushsize_a = (ImageButton)findViewById(R.id.brush_a);
+        eraser_a = (ImageButton)findViewById(R.id.eraser_a);
+        savedraw_a = (ImageButton)findViewById(R.id.savedraw_a);
         arrow_a_small_right = (ImageButton)findViewById(R.id.arrow_a_small_right);
         arrow_a_small_left = (ImageButton)findViewById(R.id.arrow_a_small_left);
 
-        /*
-        ImageButton[] arrow_small_right = new ImageButton[3];
-        arrow_small_right[0] = (ImageButton)findViewById(R.id.arrow_a_small_right);
-        arrow_small_right[1] = (ImageButton)findViewById(R.id.arrow_b_small_right);
-        for (int i = 0; i<=1; i++){
-            arrow_small_right[i].setEnabled(true);
-            arrow_small_right[i].setOnClickListener(this);
-        } */
-
-
-        brushsize.setOnClickListener(this);
-        newdraw.setOnClickListener(this);
-        eraser.setOnClickListener(this);
-        savedraw.setOnClickListener(this);
+        brushsize_a.setOnClickListener(this);
+        newdraw_a.setOnClickListener(this);
+        eraser_a.setOnClickListener(this);
+        savedraw_a.setOnClickListener(this);
         arrow_a_small_right.setOnClickListener(this);
         arrow_a_small_left.setOnClickListener(this);
-
-        drawingv = (canvas_class)findViewById(R.id.canvas_a);
-
-        psmall= 10;
-        pmedium= 20;
-        plarge= 30;
-
-        pdefecto= pmedium;
-
 
     }
 
     @Override
-
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
@@ -148,10 +123,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 save();
                 break;
             case R.id.arrow_a_small_right:
-                setContentView(R.layout.content_b);
-                break;
+                Intent intent;
+                intent = new Intent("com.dam.profesor.paint.DrawingActivityb");
+                startActivity(intent);
             case R.id.arrow_a_small_left:
-                setContentView(R.layout.content_b);
+                save();
                 break;
             default:
                 break;
