@@ -26,8 +26,8 @@ public class canvas_class extends View {
 
 
     public canvas_class(Context context, AttributeSet attrs) {
-            super(context, attrs);
-            setupDrawing();
+        super(context, attrs);
+        setupDrawing();
     }
 
 
@@ -128,7 +128,7 @@ public class canvas_class extends View {
 
     public static void NuevoDibujo(){
         drawCanvas.drawColor(0, PorterDuff.Mode.CLEAR);
-     //   invalidate();
+        //   invalidate();
 
     }
 
