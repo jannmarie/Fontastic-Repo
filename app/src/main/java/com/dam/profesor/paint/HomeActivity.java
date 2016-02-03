@@ -28,7 +28,7 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent;
-                intent = new Intent("com.dam.profesor.paint.DrawingActivitya");
+                intent = new Intent("com.dam.profesor.paint.DrawingActivity");
                 startActivity(intent);
             }
         });

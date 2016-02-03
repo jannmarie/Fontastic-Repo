@@ -3,7 +3,6 @@ package com.dam.profesor.paint;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
-import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.PorterDuff;
@@ -17,13 +16,8 @@ public class canvas_class extends View {
     private Path drawPath;
     private static Paint drawPaint;
     private Paint canvasPaint;
-    private static Canvas drawCanvas;
+    private Canvas drawCanvas;
     private Bitmap canvasBitmap;
-
-    private static int paintColor = 0xFF000000;
-    static float TamanyoPunto;
-    private static boolean borrado = false;
-
 
     public canvas_class(Context context, AttributeSet attrs) {
         super(context, attrs);
@@ -32,25 +26,18 @@ public class canvas_class extends View {
 
 
     private void setupDrawing(){
-//Configuración del area sobre la que pintar
-
         drawPath = new Path();
         drawPaint = new Paint();
-        drawPaint.setColor(paintColor);
+        drawPaint.setColor(0xFF000000);
         drawPaint.setAntiAlias(true);
-
-        //setTamanyoPunto(20);
 
         drawPaint.setStrokeWidth(20);
         drawPaint.setStyle(Paint.Style.STROKE);
         drawPaint.setStrokeJoin(Paint.Join.ROUND);
         drawPaint.setStrokeCap(Paint.Cap.ROUND);
         canvasPaint = new Paint(Paint.DITHER_FLAG);
-
-
     }
 
-    //Tamaño asignado a la vista
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
         super.onSizeChanged(w, h, oldw, oldh);
@@ -58,15 +45,12 @@ public class canvas_class extends View {
         drawCanvas = new Canvas(canvasBitmap);
     }
 
-
-    //Pinta la vista. Será llamado desde el OnTouchEvent
     @Override
     protected void onDraw(Canvas canvas) {
         canvas.drawBitmap(canvasBitmap, 0, 0, canvasPaint);
         canvas.drawPath(drawPath, drawPaint);
     }
 
-    //Registra los touch de usuario
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         float touchX = event.getX();
@@ -87,48 +71,17 @@ public class canvas_class extends View {
             default:
                 return false;
         }
-        //repintar
         invalidate();
         return true;
-
     }
 
-    //Actualiza color
-    public void setColor(String newColor){
-        invalidate();
-        paintColor = Color.parseColor(newColor);
-        drawPaint.setColor(paintColor);
+    public static void setPointSize(float newSize){
+        drawPaint.setStrokeWidth(newSize);
     }
 
-    //Poner tamaño del punto
-    public static void setTamanyoPunto(float nuevoTamanyo){
-
-        //float pixel = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
-        //        nuevoTamanyo, getResources().getDisplayMetrics());
-
-        //TamanyoPunto=pixel;
-        drawPaint.setStrokeWidth(nuevoTamanyo);
-    }
-
-
-    //set borrado true or false
-    public static void setBorrado(boolean estaborrado){
-        borrado=estaborrado;
-        if(borrado) {
-
-            drawPaint.setColor(Color.WHITE);
-            //drawPaint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.CLEAR));
-
-        }
-        else {
-            drawPaint.setColor(paintColor);
-            //drawPaint.setXfermode(null);
-        }
-    }
-
-    public static void NuevoDibujo(){
+    public void newDrawing(){
         drawCanvas.drawColor(0, PorterDuff.Mode.CLEAR);
-        //   invalidate();
+        invalidate();
 
     }
 

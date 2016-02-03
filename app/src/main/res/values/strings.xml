@@ -21,6 +21,7 @@
     <string name="b">Lowercase b</string>
 
     <!-- APP BAR -->
+    <string name="title_activity_drawing_activity">Drawing Activity</string>
     <string name="title_activity_drawing_activitya">Lowercase a</string>
     <string name="title_activity_drawing_activityb">Lowercase b</string>
     <string name="title_activity_drawing_activityc">Lowercase c</string>
@@ -47,5 +48,6 @@
     <string name="title_activity_drawing_activityx">Lowercase x</string>
     <string name="title_activity_drawing_activityy">Lowercase y</string>
     <string name="title_activity_drawing_activityz">Lowercase z</string>
+    <string name="title_activity_drawing">DrawingActivity</string>
 
 </resources>
