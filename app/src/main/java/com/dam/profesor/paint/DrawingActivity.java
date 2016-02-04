@@ -19,6 +19,7 @@ public class DrawingActivity extends AppCompatActivity implements View.OnClickLi
     ImageButton next, previous, newdraw, brushsize, savedraw;
 
     public static canvas_class drawingcanvas_a, drawingcanvas_b, drawingcanvas_c, drawingcanvas_d, drawingcanvas_e, drawingcanvas_f, drawingcanvas_g, drawingcanvas_h, drawingcanvas_i, drawingcanvas_j, drawingcanvas_k, drawingcanvas_l, drawingcanvas_m, drawingcanvas_n, drawingcanvas_o, drawingcanvas_p, drawingcanvas_q, drawingcanvas_r, drawingcanvas_s, drawingcanvas_t, drawingcanvas_u, drawingcanvas_v, drawingcanvas_w, drawingcanvas_x, drawingcanvas_y, drawingcanvas_z;
+    public static canvas_class drawingcanvas_A, drawingcanvas_B, drawingcanvas_C, drawingcanvas_D, drawingcanvas_E, drawingcanvas_F, drawingcanvas_G, drawingcanvas_H, drawingcanvas_I, drawingcanvas_J, drawingcanvas_K, drawingcanvas_L, drawingcanvas_M, drawingcanvas_N, drawingcanvas_O, drawingcanvas_P, drawingcanvas_Q, drawingcanvas_R, drawingcanvas_S, drawingcanvas_T, drawingcanvas_U, drawingcanvas_V, drawingcanvas_W, drawingcanvas_X, drawingcanvas_Y, drawingcanvas_Z;
 
     float psmall= 10;
     float pmedium= 20;
@@ -66,7 +67,32 @@ public class DrawingActivity extends AppCompatActivity implements View.OnClickLi
         drawingcanvas_x = (canvas_class)findViewById(R.id.canvas_lowercase_x);
         drawingcanvas_y = (canvas_class)findViewById(R.id.canvas_lowercase_y);
         drawingcanvas_z = (canvas_class)findViewById(R.id.canvas_lowercase_z);
-
+        drawingcanvas_A = (canvas_class)findViewById(R.id.canvas_uppercase_a);
+        drawingcanvas_B = (canvas_class)findViewById(R.id.canvas_uppercase_b);
+        drawingcanvas_C = (canvas_class)findViewById(R.id.canvas_uppercase_c);
+        drawingcanvas_D = (canvas_class)findViewById(R.id.canvas_uppercase_d);
+        drawingcanvas_E = (canvas_class)findViewById(R.id.canvas_uppercase_e);
+        drawingcanvas_F = (canvas_class)findViewById(R.id.canvas_uppercase_f);
+        drawingcanvas_G = (canvas_class)findViewById(R.id.canvas_uppercase_g);
+        drawingcanvas_H = (canvas_class)findViewById(R.id.canvas_uppercase_h);
+        drawingcanvas_I = (canvas_class)findViewById(R.id.canvas_uppercase_i);
+        drawingcanvas_J = (canvas_class)findViewById(R.id.canvas_uppercase_j);
+        drawingcanvas_K = (canvas_class)findViewById(R.id.canvas_uppercase_k);
+        drawingcanvas_L = (canvas_class)findViewById(R.id.canvas_uppercase_l);
+        drawingcanvas_M = (canvas_class)findViewById(R.id.canvas_uppercase_m);
+        drawingcanvas_N = (canvas_class)findViewById(R.id.canvas_uppercase_n);
+        drawingcanvas_O = (canvas_class)findViewById(R.id.canvas_uppercase_o);
+        drawingcanvas_P = (canvas_class)findViewById(R.id.canvas_uppercase_p);
+        drawingcanvas_Q = (canvas_class)findViewById(R.id.canvas_uppercase_q);
+        drawingcanvas_R = (canvas_class)findViewById(R.id.canvas_uppercase_r);
+        drawingcanvas_S = (canvas_class)findViewById(R.id.canvas_uppercase_s);
+        drawingcanvas_T = (canvas_class)findViewById(R.id.canvas_uppercase_t);
+        drawingcanvas_U = (canvas_class)findViewById(R.id.canvas_uppercase_u);
+        drawingcanvas_V = (canvas_class)findViewById(R.id.canvas_uppercase_v);
+        drawingcanvas_W = (canvas_class)findViewById(R.id.canvas_uppercase_w);
+        drawingcanvas_X = (canvas_class)findViewById(R.id.canvas_uppercase_x);
+        drawingcanvas_Y = (canvas_class)findViewById(R.id.canvas_uppercase_y);
+        drawingcanvas_Z = (canvas_class)findViewById(R.id.canvas_uppercase_z);
 
         next.setOnClickListener(this);
         previous.setOnClickListener(this);
@@ -79,83 +105,162 @@ public class DrawingActivity extends AppCompatActivity implements View.OnClickLi
     public void saving(canvas_class drawingcanvas, int index){
         switch (index){
             case 0:
-                filename = "lowercase_a";
+                filename = "a";
                 break;
             case 1:
-                filename = "lowercase_b";
+                filename = "b";
                 break;
             case 2:
-                filename = "lowercase_c";
+                filename = "c";
                 break;
             case 3:
-                filename = "lowercase_d";
+                filename = "d";
                 break;
             case 4:
-                filename = "lowercase_e";
+                filename = "e";
                 break;
             case 5:
-                filename = "lowercase_f";
+                filename = "f";
                 break;
             case 6:
-                filename = "lowercase_g";
+                filename = "g";
                 break;
             case 7:
-                filename = "lowercase_h";
+                filename = "h";
                 break;
             case 8:
-                filename = "lowercase_i";
+                filename = "i";
                 break;
             case 9:
-                filename = "lowercase_j";
+                filename = "j";
                 break;
             case 10:
-                filename = "lowercase_k";
+                filename = "k";
                 break;
             case 11:
-                filename = "lowercase_l";
+                filename = "l";
                 break;
             case 12:
-                filename = "lowercase_m";
+                filename = "m";
                 break;
             case 13:
-                filename = "lowercase_n";
+                filename = "n";
                 break;
             case 14:
-                filename = "lowercase_o";
+                filename = "o";
                 break;
             case 15:
-                filename = "lowercase_p";
+                filename = "p";
                 break;
             case 16:
-                filename = "lowercase_q";
+                filename = "q";
                 break;
             case 17:
-                filename = "lowercase_r";
+                filename = "r";
                 break;
             case 18:
-                filename = "lowercase_s";
+                filename = "s";
                 break;
             case 19:
-                filename = "lowercase_t";
+                filename = "t";
                 break;
             case 20:
-                filename = "lowercase_u";
+                filename = "u";
                 break;
             case 21:
-                filename = "lowercase_v";
+                filename = "v";
                 break;
             case 22:
-                filename = "lowercase_w";
+                filename = "w";
                 break;
             case 23:
-                filename = "lowercase_x";
+                filename = "x";
                 break;
             case 24:
-                filename = "lowercase_y";
+                filename = "y";
                 break;
             case 25:
-                filename = "lowercase_z";
+                filename = "z";
                 break;
+            case 26:
+                filename = "A";
+                break;
+            case 27:
+                filename = "B";
+                break;
+            case 28:
+                filename = "C";
+                break;
+            case 29:
+                filename = "D";
+                break;
+            case 30:
+                filename = "E";
+                break;
+            case 31:
+                filename = "F";
+                break;
+            case 32:
+                filename = "G";
+                break;
+            case 33:
+                filename = "H";
+                break;
+            case 34:
+                filename = "I";
+                break;
+            case 35:
+                filename = "J";
+                break;
+            case 36:
+                filename = "K";
+                break;
+            case 37:
+                filename = "L";
+                break;
+            case 38:
+                filename = "M";
+                break;
+            case 39:
+                filename = "N";
+                break;
+            case 40:
+                filename = "O";
+                break;
+            case 41:
+                filename = "P";
+                break;
+            case 42:
+                filename = "Q";
+                break;
+            case 43:
+                filename = "R";
+                break;
+            case 44:
+                filename = "S";
+                break;
+            case 45:
+                filename = "T";
+                break;
+            case 46:
+                filename = "U";
+                break;
+            case 47:
+                filename = "V";
+                break;
+            case 48:
+                filename = "W";
+                break;
+            case 49:
+                filename = "X";
+                break;
+            case 50:
+                filename = "Y";
+                break;
+            case 51:
+                filename = "Z";
+                break;
+
         }
         drawingcanvas.setDrawingCacheEnabled(true);
         String imgSaved = MediaStore.Images.Media.insertImage(getContentResolver(), drawingcanvas.getDrawingCache(), filename + ".png", "drawing");
@@ -265,6 +370,84 @@ public class DrawingActivity extends AppCompatActivity implements View.OnClickLi
                                 break;
                             case 25:
                                 drawingcanvas_z.newDrawing();
+                                break;
+                            case 26:
+                                drawingcanvas_A.newDrawing();
+                                break;
+                            case 27:
+                                drawingcanvas_B.newDrawing();
+                                break;
+                            case 28:
+                                drawingcanvas_C.newDrawing();
+                                break;
+                            case 29:
+                                drawingcanvas_D.newDrawing();
+                                break;
+                            case 30:
+                                drawingcanvas_E.newDrawing();
+                                break;
+                            case 31:
+                                drawingcanvas_F.newDrawing();
+                                break;
+                            case 32:
+                                drawingcanvas_G.newDrawing();
+                                break;
+                            case 33:
+                                drawingcanvas_H.newDrawing();
+                                break;
+                            case 34:
+                                drawingcanvas_I.newDrawing();
+                                break;
+                            case 35:
+                                drawingcanvas_J.newDrawing();
+                                break;
+                            case 36:
+                                drawingcanvas_K.newDrawing();
+                                break;
+                            case 37:
+                                drawingcanvas_L.newDrawing();
+                                break;
+                            case 38:
+                                drawingcanvas_M.newDrawing();
+                                break;
+                            case 39:
+                                drawingcanvas_N.newDrawing();
+                                break;
+                            case 40:
+                                drawingcanvas_O.newDrawing();
+                                break;
+                            case 41:
+                                drawingcanvas_P.newDrawing();
+                                break;
+                            case 42:
+                                drawingcanvas_Q.newDrawing();
+                                break;
+                            case 43:
+                                drawingcanvas_R.newDrawing();
+                                break;
+                            case 44:
+                                drawingcanvas_S.newDrawing();
+                                break;
+                            case 45:
+                                drawingcanvas_T.newDrawing();
+                                break;
+                            case 46:
+                                drawingcanvas_U.newDrawing();
+                                break;
+                            case 47:
+                                drawingcanvas_V.newDrawing();
+                                break;
+                            case 48:
+                                drawingcanvas_W.newDrawing();
+                                break;
+                            case 49:
+                                drawingcanvas_X.newDrawing();
+                                break;
+                            case 50:
+                                drawingcanvas_Y.newDrawing();
+                                break;
+                            case 51:
+                                drawingcanvas_Z.newDrawing();
                                 break;
                         }
                         dialog.dismiss();
@@ -394,6 +577,84 @@ public class DrawingActivity extends AppCompatActivity implements View.OnClickLi
                                 break;
                             case 25:
                                 saving(drawingcanvas_z, index_savedraw);
+                                break;
+                            case 26:
+                                saving(drawingcanvas_A, index_savedraw);
+                                break;
+                            case 27:
+                                saving(drawingcanvas_B, index_savedraw);
+                                break;
+                            case 28:
+                                saving(drawingcanvas_C, index_savedraw);
+                                break;
+                            case 29:
+                                saving(drawingcanvas_D, index_savedraw);
+                                break;
+                            case 30:
+                                saving(drawingcanvas_E, index_savedraw);
+                                break;
+                            case 31:
+                                saving(drawingcanvas_F, index_savedraw);
+                                break;
+                            case 32:
+                                saving(drawingcanvas_G, index_savedraw);
+                                break;
+                            case 33:
+                                saving(drawingcanvas_H, index_savedraw);
+                                break;
+                            case 34:
+                                saving(drawingcanvas_I, index_savedraw);
+                                break;
+                            case 35:
+                                saving(drawingcanvas_J, index_savedraw);
+                                break;
+                            case 36:
+                                saving(drawingcanvas_K, index_savedraw);
+                                break;
+                            case 37:
+                                saving(drawingcanvas_L, index_savedraw);
+                                break;
+                            case 38:
+                                saving(drawingcanvas_M, index_savedraw);
+                                break;
+                            case 39:
+                                saving(drawingcanvas_N, index_savedraw);
+                                break;
+                            case 40:
+                                saving(drawingcanvas_O, index_savedraw);
+                                break;
+                            case 41:
+                                saving(drawingcanvas_P, index_savedraw);
+                                break;
+                            case 42:
+                                saving(drawingcanvas_Q, index_savedraw);
+                                break;
+                            case 43:
+                                saving(drawingcanvas_R, index_savedraw);
+                                break;
+                            case 44:
+                                saving(drawingcanvas_S, index_savedraw);
+                                break;
+                            case 45:
+                                saving(drawingcanvas_T, index_savedraw);
+                                break;
+                            case 46:
+                                saving(drawingcanvas_U, index_savedraw);
+                                break;
+                            case 47:
+                                saving(drawingcanvas_V, index_savedraw);
+                                break;
+                            case 48:
+                                saving(drawingcanvas_W, index_savedraw);
+                                break;
+                            case 49:
+                                saving(drawingcanvas_X, index_savedraw);
+                                break;
+                            case 50:
+                                saving(drawingcanvas_Y, index_savedraw);
+                                break;
+                            case 51:
+                                saving(drawingcanvas_Z, index_savedraw);
                                 break;
                             }
                     }

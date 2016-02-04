@@ -226,6 +226,162 @@
                 android:layout_height="match_parent"
                 android:background="@drawable/paper"/>
 
+            <com.dam.profesor.paint.canvas_class
+                android:id="@+id/canvas_uppercase_a"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/paper" />
+
+            <com.dam.profesor.paint.canvas_class
+                android:id="@+id/canvas_uppercase_b"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/paper" />
+
+            <com.dam.profesor.paint.canvas_class
+                android:id="@+id/canvas_uppercase_c"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/paper" />
+
+            <com.dam.profesor.paint.canvas_class
+                android:id="@+id/canvas_uppercase_d"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/paper" />
+
+            <com.dam.profesor.paint.canvas_class
+                android:id="@+id/canvas_uppercase_e"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/paper" />
+
+            <com.dam.profesor.paint.canvas_class
+                android:id="@+id/canvas_uppercase_f"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/paper" />
+
+            <com.dam.profesor.paint.canvas_class
+                android:id="@+id/canvas_uppercase_g"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/paper" />
+
+            <com.dam.profesor.paint.canvas_class
+                android:id="@+id/canvas_uppercase_h"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/paper" />
+
+            <com.dam.profesor.paint.canvas_class
+                android:id="@+id/canvas_uppercase_i"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/paper" />
+
+            <com.dam.profesor.paint.canvas_class
+                android:id="@+id/canvas_uppercase_j"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/paper" />
+
+            <com.dam.profesor.paint.canvas_class
+                android:id="@+id/canvas_uppercase_k"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/paper" />
+
+            <com.dam.profesor.paint.canvas_class
+                android:id="@+id/canvas_uppercase_l"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/paper" />
+
+            <com.dam.profesor.paint.canvas_class
+                android:id="@+id/canvas_uppercase_m"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/paper" />
+
+            <com.dam.profesor.paint.canvas_class
+                android:id="@+id/canvas_uppercase_n"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/paper" />
+
+            <com.dam.profesor.paint.canvas_class
+                android:id="@+id/canvas_uppercase_o"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/paper" />
+
+            <com.dam.profesor.paint.canvas_class
+                android:id="@+id/canvas_uppercase_p"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/paper" />
+
+            <com.dam.profesor.paint.canvas_class
+                android:id="@+id/canvas_uppercase_q"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/paper" />
+
+            <com.dam.profesor.paint.canvas_class
+                android:id="@+id/canvas_uppercase_r"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/paper" />
+
+            <com.dam.profesor.paint.canvas_class
+                android:id="@+id/canvas_uppercase_s"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/paper" />
+
+            <com.dam.profesor.paint.canvas_class
+                android:id="@+id/canvas_uppercase_t"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/paper" />
+
+            <com.dam.profesor.paint.canvas_class
+                android:id="@+id/canvas_uppercase_u"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/paper" />
+
+            <com.dam.profesor.paint.canvas_class
+                android:id="@+id/canvas_uppercase_v"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/paper" />
+
+            <com.dam.profesor.paint.canvas_class
+                android:id="@+id/canvas_uppercase_w"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/paper" />
+
+            <com.dam.profesor.paint.canvas_class
+                android:id="@+id/canvas_uppercase_x"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/paper" />
+
+            <com.dam.profesor.paint.canvas_class
+                android:id="@+id/canvas_uppercase_y"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/paper" />
+
+            <com.dam.profesor.paint.canvas_class
+                android:id="@+id/canvas_uppercase_z"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/paper" />
+
         </ViewFlipper>
 
         <LinearLayout
