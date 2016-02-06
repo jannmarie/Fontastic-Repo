@@ -50,10 +50,27 @@
                 android:src="@drawable/back"
                 android:background="#fdec8c"/>
 
-            <Space
+            <ViewFlipper
+                android:id="@+id/image_flipper"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="0.4" />
+                android:layout_weight="0.4">
+
+                <ImageView
+                    android:id="@+id/lowercase_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lowercase_1" />
+
+                <ImageView
+                    android:id="@+id/lowercase_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lowercase_2" />
+
+
+            </ViewFlipper>
+
 
             <ImageButton
                 android:id="@+id/arrow_next"
@@ -74,13 +91,13 @@
                 android:id="@+id/canvas_lowercase_a"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper" />
+                android:background="@drawable/paper_1" />
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_lowercase_b"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper"/>
+                android:background="@drawable/paper_2"/>
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_lowercase_c"

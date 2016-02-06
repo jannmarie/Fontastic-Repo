@@ -9,14 +9,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ViewFlipper;
 
 public class DrawingActivity extends AppCompatActivity implements View.OnClickListener {
 
-    ViewFlipper viewFlipper;
+    ViewFlipper viewFlipper, imageflipper;
     ImageButton next, previous, newdraw, brushsize, savedraw;
+
+    ImageView image_a, image_b;
 
     public static canvas_class drawingcanvas_a, drawingcanvas_b, drawingcanvas_c, drawingcanvas_d, drawingcanvas_e, drawingcanvas_f, drawingcanvas_g, drawingcanvas_h, drawingcanvas_i, drawingcanvas_j, drawingcanvas_k, drawingcanvas_l, drawingcanvas_m, drawingcanvas_n, drawingcanvas_o, drawingcanvas_p, drawingcanvas_q, drawingcanvas_r, drawingcanvas_s, drawingcanvas_t, drawingcanvas_u, drawingcanvas_v, drawingcanvas_w, drawingcanvas_x, drawingcanvas_y, drawingcanvas_z;
     public static canvas_class drawingcanvas_A, drawingcanvas_B, drawingcanvas_C, drawingcanvas_D, drawingcanvas_E, drawingcanvas_F, drawingcanvas_G, drawingcanvas_H, drawingcanvas_I, drawingcanvas_J, drawingcanvas_K, drawingcanvas_L, drawingcanvas_M, drawingcanvas_N, drawingcanvas_O, drawingcanvas_P, drawingcanvas_Q, drawingcanvas_R, drawingcanvas_S, drawingcanvas_T, drawingcanvas_U, drawingcanvas_V, drawingcanvas_W, drawingcanvas_X, drawingcanvas_Y, drawingcanvas_Z;
@@ -35,11 +38,16 @@ public class DrawingActivity extends AppCompatActivity implements View.OnClickLi
         setSupportActionBar(toolbar);
 
         viewFlipper = (ViewFlipper) findViewById(R.id.flipper_canvas);
+        imageflipper = (ViewFlipper) findViewById(R.id.image_flipper);
+
         next = (ImageButton) findViewById(R.id.arrow_next);
         previous = (ImageButton) findViewById(R.id.arrow_previous);
         newdraw = (ImageButton)findViewById(R.id.newdraw);
         brushsize = (ImageButton)findViewById(R.id.brush);
         savedraw = (ImageButton)findViewById(R.id.savedraw);
+
+        image_a = (ImageView)findViewById(R.id.lowercase_0);
+        image_b = (ImageView)findViewById(R.id.lowercase_1);
 
         drawingcanvas_a = (canvas_class)findViewById(R.id.canvas_lowercase_a);
         drawingcanvas_b = (canvas_class)findViewById(R.id.canvas_lowercase_b);
@@ -281,9 +289,11 @@ public class DrawingActivity extends AppCompatActivity implements View.OnClickLi
         switch (v.getId()){
             case R.id.arrow_next:
                 viewFlipper.showNext();
+                imageflipper.showNext();
                 break;
             case R.id.arrow_previous:
                 viewFlipper.showPrevious();
+                imageflipper.showPrevious();
                 break;
             case R.id.newdraw:
                 AlertDialog.Builder newDialog = new AlertDialog.Builder(this);
