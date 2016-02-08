@@ -1,4 +1,4 @@
-package com.dam.profesor.paint;
+package com.thesis.fontasticmaker;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -28,7 +28,7 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent;
-                intent = new Intent("com.dam.profesor.paint.DrawingActivity");
+                intent = new Intent("com.thesis.fontasticmaker.DrawingActivity");
                 startActivity(intent);
             }
         });
