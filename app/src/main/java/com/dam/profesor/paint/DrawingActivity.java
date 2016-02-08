@@ -19,7 +19,8 @@ public class DrawingActivity extends AppCompatActivity implements View.OnClickLi
     ViewFlipper viewFlipper, imageflipper;
     ImageButton next, previous, newdraw, brushsize, savedraw;
 
-    ImageView image_a, image_b;
+    ImageView image_a, image_b, image_c, image_d, image_e, image_f, image_g, image_h, image_i, image_j, image_k, image_l, image_m, image_n, image_o, image_p, image_q, image_r, image_s, image_t, image_u, image_v, image_w, image_x, image_y, image_z;
+    ImageView image_A, image_B, image_C, image_D, image_E, image_F, image_G, image_H, image_I, image_J, image_K, image_L, image_M, image_N, image_O, image_P, image_Q, image_R, image_S, image_T, image_U, image_V, image_W, image_X, image_Y, image_Z;
 
     public static canvas_class drawingcanvas_a, drawingcanvas_b, drawingcanvas_c, drawingcanvas_d, drawingcanvas_e, drawingcanvas_f, drawingcanvas_g, drawingcanvas_h, drawingcanvas_i, drawingcanvas_j, drawingcanvas_k, drawingcanvas_l, drawingcanvas_m, drawingcanvas_n, drawingcanvas_o, drawingcanvas_p, drawingcanvas_q, drawingcanvas_r, drawingcanvas_s, drawingcanvas_t, drawingcanvas_u, drawingcanvas_v, drawingcanvas_w, drawingcanvas_x, drawingcanvas_y, drawingcanvas_z;
     public static canvas_class drawingcanvas_A, drawingcanvas_B, drawingcanvas_C, drawingcanvas_D, drawingcanvas_E, drawingcanvas_F, drawingcanvas_G, drawingcanvas_H, drawingcanvas_I, drawingcanvas_J, drawingcanvas_K, drawingcanvas_L, drawingcanvas_M, drawingcanvas_N, drawingcanvas_O, drawingcanvas_P, drawingcanvas_Q, drawingcanvas_R, drawingcanvas_S, drawingcanvas_T, drawingcanvas_U, drawingcanvas_V, drawingcanvas_W, drawingcanvas_X, drawingcanvas_Y, drawingcanvas_Z;
@@ -48,6 +49,57 @@ public class DrawingActivity extends AppCompatActivity implements View.OnClickLi
 
         image_a = (ImageView)findViewById(R.id.lowercase_0);
         image_b = (ImageView)findViewById(R.id.lowercase_1);
+        image_c = (ImageView)findViewById(R.id.lowercase_2);
+        image_d = (ImageView)findViewById(R.id.lowercase_3);
+        image_e = (ImageView)findViewById(R.id.lowercase_4);
+        image_f = (ImageView)findViewById(R.id.lowercase_5);
+        image_g = (ImageView)findViewById(R.id.lowercase_6);
+        image_h = (ImageView)findViewById(R.id.lowercase_7);
+        image_i = (ImageView)findViewById(R.id.lowercase_8);
+        image_j = (ImageView)findViewById(R.id.lowercase_9);
+        image_k = (ImageView)findViewById(R.id.lowercase_10);
+        image_l = (ImageView)findViewById(R.id.lowercase_11);
+        image_m = (ImageView)findViewById(R.id.lowercase_12);
+        image_n = (ImageView)findViewById(R.id.lowercase_13);
+        image_o = (ImageView)findViewById(R.id.lowercase_14);
+        image_p = (ImageView)findViewById(R.id.lowercase_15);
+        image_q = (ImageView)findViewById(R.id.lowercase_16);
+        image_r = (ImageView)findViewById(R.id.lowercase_17);
+        image_s = (ImageView)findViewById(R.id.lowercase_18);
+        image_t = (ImageView)findViewById(R.id.lowercase_19);
+        image_u = (ImageView)findViewById(R.id.lowercase_20);
+        image_v = (ImageView)findViewById(R.id.lowercase_21);
+        image_w = (ImageView)findViewById(R.id.lowercase_22);
+        image_x = (ImageView)findViewById(R.id.lowercase_23);
+        image_y = (ImageView)findViewById(R.id.lowercase_24);
+        image_z = (ImageView)findViewById(R.id.lowercase_25);
+        image_A = (ImageView)findViewById(R.id.uppercase_26);
+        image_B = (ImageView)findViewById(R.id.uppercase_27);
+        image_C = (ImageView)findViewById(R.id.uppercase_28);
+        image_D = (ImageView)findViewById(R.id.uppercase_29);
+        image_E = (ImageView)findViewById(R.id.uppercase_30);
+        image_F = (ImageView)findViewById(R.id.uppercase_31);
+        image_G = (ImageView)findViewById(R.id.uppercase_32);
+        image_H = (ImageView)findViewById(R.id.uppercase_33);
+        image_I = (ImageView)findViewById(R.id.uppercase_34);
+        image_J = (ImageView)findViewById(R.id.uppercase_35);
+        image_K = (ImageView)findViewById(R.id.uppercase_36);
+        image_L = (ImageView)findViewById(R.id.uppercase_37);
+        image_M = (ImageView)findViewById(R.id.uppercase_38);
+        image_N = (ImageView)findViewById(R.id.uppercase_39);
+        image_O = (ImageView)findViewById(R.id.uppercase_40);
+        image_P = (ImageView)findViewById(R.id.uppercase_41);
+        image_Q = (ImageView)findViewById(R.id.uppercase_42);
+        image_R = (ImageView)findViewById(R.id.uppercase_43);
+        image_S = (ImageView)findViewById(R.id.uppercase_44);
+        image_T = (ImageView)findViewById(R.id.uppercase_45);
+        image_U = (ImageView)findViewById(R.id.uppercase_46);
+        image_V = (ImageView)findViewById(R.id.uppercase_47);
+        image_W = (ImageView)findViewById(R.id.uppercase_48);
+        image_X = (ImageView)findViewById(R.id.uppercase_49);
+        image_Y = (ImageView)findViewById(R.id.uppercase_50);
+        image_Z = (ImageView)findViewById(R.id.uppercase_51);
+
 
         drawingcanvas_a = (canvas_class)findViewById(R.id.canvas_lowercase_a);
         drawingcanvas_b = (canvas_class)findViewById(R.id.canvas_lowercase_b);

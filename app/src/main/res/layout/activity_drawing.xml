@@ -68,6 +68,305 @@
                     android:layout_height="match_parent"
                     android:src="@drawable/lowercase_2" />
 
+                <ImageView
+                    android:id="@+id/lowercase_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lowercase_3" />
+
+                <ImageView
+                    android:id="@+id/lowercase_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lowercase_4" />
+
+                <ImageView
+                    android:id="@+id/lowercase_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lowercase_5" />
+
+                <ImageView
+                    android:id="@+id/lowercase_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lowercase_6" />
+
+                <ImageView
+                    android:id="@+id/lowercase_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lowercase_7" />
+
+                <ImageView
+                    android:id="@+id/lowercase_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lowercase_8" />
+
+                <ImageView
+                    android:id="@+id/lowercase_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lowercase_9" />
+
+                <ImageView
+                    android:id="@+id/lowercase_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lowercase_10" />
+
+                <ImageView
+                    android:id="@+id/lowercase_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lowercase_11" />
+
+                <ImageView
+                    android:id="@+id/lowercase_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lowercase_12" />
+
+                <ImageView
+                    android:id="@+id/lowercase_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lowercase_13" />
+
+                <ImageView
+                    android:id="@+id/lowercase_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lowercase_14" />
+
+                <ImageView
+                    android:id="@+id/lowercase_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lowercase_15" />
+
+                <ImageView
+                    android:id="@+id/lowercase_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lowercase_16" />
+
+                <ImageView
+                    android:id="@+id/lowercase_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lowercase_17" />
+
+                <ImageView
+                    android:id="@+id/lowercase_17"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lowercase_18" />
+
+                <ImageView
+                    android:id="@+id/lowercase_18"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lowercase_19" />
+
+                <ImageView
+                    android:id="@+id/lowercase_19"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lowercase_20" />
+
+                <ImageView
+                    android:id="@+id/lowercase_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lowercase_21" />
+
+                <ImageView
+                    android:id="@+id/lowercase_21"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lowercase_22" />
+
+                <ImageView
+                    android:id="@+id/lowercase_22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lowercase_23" />
+
+                <ImageView
+                    android:id="@+id/lowercase_23"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lowercase_24" />
+
+                <ImageView
+                    android:id="@+id/lowercase_24"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lowercase_25" />
+
+                <ImageView
+                    android:id="@+id/lowercase_25"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lowercase_26" />
+
+                <ImageView
+                    android:id="@+id/uppercase_26"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/uppercase_1" />
+
+                <ImageView
+                    android:id="@+id/uppercase_27"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/uppercase_2" />
+
+                <ImageView
+                    android:id="@+id/uppercase_28"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/uppercase_3" />
+
+                <ImageView
+                    android:id="@+id/uppercase_29"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/uppercase_4" />
+
+                <ImageView
+                    android:id="@+id/uppercase_30"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/uppercase_5" />
+
+                <ImageView
+                    android:id="@+id/uppercase_31"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/uppercase_6" />
+
+                <ImageView
+                    android:id="@+id/uppercase_32"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/uppercase_7" />
+
+                <ImageView
+                    android:id="@+id/uppercase_33"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/uppercase_8" />
+
+                <ImageView
+                    android:id="@+id/uppercase_34"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/uppercase_9" />
+
+                <ImageView
+                    android:id="@+id/uppercase_35"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/uppercase_10" />
+
+                <ImageView
+                    android:id="@+id/uppercase_36"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/uppercase_11" />
+
+                <ImageView
+                    android:id="@+id/uppercase_37"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/uppercase_12" />
+
+                <ImageView
+                    android:id="@+id/uppercase_38"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/uppercase_13" />
+
+                <ImageView
+                    android:id="@+id/uppercase_39"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/uppercase_14" />
+
+                <ImageView
+                    android:id="@+id/uppercase_40"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/uppercase_15" />
+
+                <ImageView
+                    android:id="@+id/uppercase_41"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/uppercase_16" />
+
+                <ImageView
+                    android:id="@+id/uppercase_42"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/uppercase_17" />
+
+                <ImageView
+                    android:id="@+id/uppercase_43"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/uppercase_18" />
+
+                <ImageView
+                    android:id="@+id/uppercase_44"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/uppercase_19" />
+
+                <ImageView
+                    android:id="@+id/uppercase_45"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/uppercase_20" />
+
+                <ImageView
+                    android:id="@+id/uppercase_46"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/uppercase_21" />
+
+                <ImageView
+                    android:id="@+id/uppercase_47"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/uppercase_22" />
+
+                <ImageView
+                    android:id="@+id/uppercase_48"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/uppercase_23" />
+
+                <ImageView
+                    android:id="@+id/uppercase_49"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/uppercase_24" />
+
+                <ImageView
+                    android:id="@+id/uppercase_50"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/uppercase_25" />
+
+                <ImageView
+                    android:id="@+id/uppercase_51"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/uppercase_26" />
 
             </ViewFlipper>
 
@@ -103,301 +402,301 @@
                 android:id="@+id/canvas_lowercase_c"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper"/>
+                android:background="@drawable/paper_3"/>
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_lowercase_d"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper"/>
+                android:background="@drawable/paper_4"/>
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_lowercase_e"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper"/>
+                android:background="@drawable/paper_5"/>
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_lowercase_f"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper"/>
+                android:background="@drawable/paper_6"/>
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_lowercase_g"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper"/>
+                android:background="@drawable/paper_7"/>
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_lowercase_h"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper"/>
+                android:background="@drawable/paper_8"/>
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_lowercase_i"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper"/>
+                android:background="@drawable/paper_9"/>
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_lowercase_j"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper"/>
+                android:background="@drawable/paper_10"/>
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_lowercase_k"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper"/>
+                android:background="@drawable/paper_11"/>
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_lowercase_l"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper"/>
+                android:background="@drawable/paper_12"/>
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_lowercase_m"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper"/>
+                android:background="@drawable/paper_13"/>
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_lowercase_n"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper"/>
+                android:background="@drawable/paper_14"/>
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_lowercase_o"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper"/>
+                android:background="@drawable/paper_15"/>
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_lowercase_p"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper"/>
+                android:background="@drawable/paper_16"/>
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_lowercase_q"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper"/>
+                android:background="@drawable/paper_17"/>
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_lowercase_r"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper"/>
+                android:background="@drawable/paper_18"/>
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_lowercase_s"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper"/>
+                android:background="@drawable/paper_19"/>
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_lowercase_t"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper"/>
+                android:background="@drawable/paper_20"/>
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_lowercase_u"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper"/>
+                android:background="@drawable/paper_21"/>
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_lowercase_v"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper"/>
+                android:background="@drawable/paper_22"/>
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_lowercase_w"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper"/>
+                android:background="@drawable/paper_23"/>
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_lowercase_x"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper"/>
+                android:background="@drawable/paper_24"/>
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_lowercase_y"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper"/>
+                android:background="@drawable/paper_25"/>
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_lowercase_z"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper"/>
+                android:background="@drawable/paper_26"/>
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_uppercase_a"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper" />
+                android:background="@drawable/paper_27" />
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_uppercase_b"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper" />
+                android:background="@drawable/paper_28" />
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_uppercase_c"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper" />
+                android:background="@drawable/paper_29" />
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_uppercase_d"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper" />
+                android:background="@drawable/paper_30" />
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_uppercase_e"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper" />
+                android:background="@drawable/paper_31" />
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_uppercase_f"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper" />
+                android:background="@drawable/paper_32" />
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_uppercase_g"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper" />
+                android:background="@drawable/paper_33" />
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_uppercase_h"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper" />
+                android:background="@drawable/paper_34" />
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_uppercase_i"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper" />
+                android:background="@drawable/paper_35" />
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_uppercase_j"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper" />
+                android:background="@drawable/paper_36" />
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_uppercase_k"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper" />
+                android:background="@drawable/paper_37" />
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_uppercase_l"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper" />
+                android:background="@drawable/paper_38" />
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_uppercase_m"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper" />
+                android:background="@drawable/paper_39" />
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_uppercase_n"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper" />
+                android:background="@drawable/paper_40" />
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_uppercase_o"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper" />
+                android:background="@drawable/paper_41" />
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_uppercase_p"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper" />
+                android:background="@drawable/paper_42" />
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_uppercase_q"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper" />
+                android:background="@drawable/paper_43" />
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_uppercase_r"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper" />
+                android:background="@drawable/paper_44" />
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_uppercase_s"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper" />
+                android:background="@drawable/paper_45" />
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_uppercase_t"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper" />
+                android:background="@drawable/paper_46" />
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_uppercase_u"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper" />
+                android:background="@drawable/paper_47" />
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_uppercase_v"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper" />
+                android:background="@drawable/paper_48" />
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_uppercase_w"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper" />
+                android:background="@drawable/paper_49" />
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_uppercase_x"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper" />
+                android:background="@drawable/paper_50" />
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_uppercase_y"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper" />
+                android:background="@drawable/paper_51" />
 
             <com.dam.profesor.paint.canvas_class
                 android:id="@+id/canvas_uppercase_z"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/paper" />
+                android:background="@drawable/paper_52" />
 
         </ViewFlipper>
 
