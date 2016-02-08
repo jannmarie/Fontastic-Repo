@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.dam.profesor.paint">
+    package="com.thesis.fontasticmaker">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
@@ -25,7 +25,7 @@
             android:label="@string/title_activity_drawing"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
-                <action android:name="com.dam.profesor.paint.DrawingActivity" />
+                <action android:name="com.thesis.fontasticmaker.DrawingActivity" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
