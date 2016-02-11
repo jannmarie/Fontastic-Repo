@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Fontastic/Fontastic.iml" filepath="$PROJECT_DIR$/Fontastic/Fontastic.iml" />
       <module fileurl="file://$PROJECT_DIR$/Fontastic-Repo.iml" filepath="$PROJECT_DIR$/Fontastic-Repo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-core/android-core.iml" filepath="$PROJECT_DIR$/android-core/android-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubletype/doubletype.iml" filepath="$PROJECT_DIR$/doubletype/doubletype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sfntly/sfntly.iml" filepath="$PROJECT_DIR$/sfntly/sfntly.iml" />
     </modules>
   </component>
 </project>

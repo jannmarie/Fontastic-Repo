@@ -1,1 +1,1 @@
-include ':app'
+include ':app', ':android-core', ':Fontastic', ':doubletype', ':sfntly'

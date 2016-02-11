@@ -90,5 +90,9 @@
     <orderEntry type="library" exported="" name="design-23.1.0" level="project" />
     <orderEntry type="library" exported="" name="appcompat-v7-23.1.0" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-23.1.0" level="project" />
+    <orderEntry type="module" module-name="sfntly" exported="" />
+    <orderEntry type="module" module-name="Fontastic" exported="" />
+    <orderEntry type="module" module-name="android-core" exported="" />
+    <orderEntry type="module" module-name="doubletype" exported="" />
   </component>
 </module>
