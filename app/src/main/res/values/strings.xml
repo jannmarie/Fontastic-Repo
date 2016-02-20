@@ -14,6 +14,7 @@
     <string name="brush">Brush tool</string>
     <string name="eraser">Eraser tool</string>
     <string name="savedraw">Saves the drawing</string>
+    <string name="contentDescription_title">Main Activity Title</string>
 
 
     <!-- LETTERS -->
@@ -49,5 +50,9 @@
     <string name="title_activity_drawing_activityy">Lowercase y</string>
     <string name="title_activity_drawing_activityz">Lowercase z</string>
     <string name="title_activity_drawing">DrawingActivity</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 
 </resources>
